@@ -7,8 +7,6 @@ public class Dec2Hex {
 
     static String DecimalConvert(Object input) {
         try {
-            System.out.println(input instanceof String);
-
             if (input instanceof String) {
                 System.out.println("You have entered a string Enter a number next time");
                 return ("isstring");
