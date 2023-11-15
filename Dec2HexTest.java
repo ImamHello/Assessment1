@@ -24,4 +24,9 @@ public class Dec2HexTest {
 	String Arg1 = "180";
         assertEquals("Testing Dec2Hex with a value of 180 input as a string the answer should be B4", "B4", dec2Hex.DecimalConvert(Arg1));
     }
+
+    @Test
+    public void Noinput() {
+        assertEquals("Calling the decimal converter with no input", "B4", dec2Hex.DecimalConvert());
+    }
 }
