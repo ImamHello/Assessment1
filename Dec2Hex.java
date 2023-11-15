@@ -13,7 +13,7 @@ public class Dec2Hex {
             if (input instanceof String || input instanceof Double || input instanceof Float ) {
                 System.out.println("You have entered a non integer");
                 return ("isstring");
-// prints error and returns string 
+// prints error and returns the string  "isstring"
             } else {
 // if it wasn't a none intiger then converts the varables so that into converted can set up num later
                 String strconverted = input.toString();
