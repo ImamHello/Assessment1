@@ -11,12 +11,11 @@ public class Dec2HexTest {
     @Before
     public void setUp() {
         dec2Hex = new Dec2Hex();
-	public static int Arg1;
     }
 
     @Test
     public void test20() {
-	Arg1 = 20
+	int Arg1 = 20;
         assertEquals("Testing Dec2Hex with a value of 20 answer should be 14", "14", dec2Hex.DecimalConvert(Arg1);
     }
 }
