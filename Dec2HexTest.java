@@ -29,4 +29,8 @@ public class Dec2HexTest {
     public void Noinput() {
         assertEquals("Calling the decimal converter with no input", "Ran into a problem", dec2Hex.DecimalConvert());
     }
+    @Test
+    public void Noinput() {
+        assertEquals("Calling the decimal converter with another non int input", "isstring", dec2Hex.DecimalConvert(2.5));
+    }
 }
