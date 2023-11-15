@@ -1,8 +1,8 @@
 public class Dec2Hex {
 
 
-        public void DecimalConvert() { 
-        System.out.println("Hello, World!"); 
+        public DecimalConvert() { 
+        return("Hello, World!"); 
         } 
         static String DecimalConvert(Object input) {
         try{
