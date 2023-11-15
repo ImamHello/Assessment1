@@ -1,7 +1,7 @@
 public class Dec2Hex {
 
     static String DecimalConvert(Object input) {
-
+        try{
         String strconverted = input.toString();
         int intconverted = Integer.parseInt(strconverted);
 
@@ -23,6 +23,10 @@ public class Dec2Hex {
         }
 
         return (hexadecimal);
+        }
+        catch(Exception e){
+            System.out.println("Ran into a problem");
+        }
     }
 
     public static void main(String args[]) {
