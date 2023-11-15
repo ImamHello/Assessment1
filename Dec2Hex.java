@@ -2,6 +2,7 @@ public class Dec2Hex {
 
 
         public String DecimalConvert() { 
+        System.out.println("Ran into a problem");
         return("Ran into a problem"); 
         } 
         static String DecimalConvert(Object input) {
