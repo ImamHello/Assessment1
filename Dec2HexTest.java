@@ -22,7 +22,7 @@ public class Dec2HexTest {
     @Test
     public void teststringinput() {
 	String Arg1 = "180";
-        assertEquals("Testing Dec2Hex with a value of 180 input as a string the answer should be B4", "B4", dec2Hex.DecimalConvert(Arg1));
+        assertEquals("Testing Dec2Hex with a value of 180 input as a string the answer should be isstring because its a string and the user shouldn't be entering in a string", "isstring", dec2Hex.DecimalConvert(Arg1));
     }
 
     @Test
