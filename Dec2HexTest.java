@@ -17,6 +17,6 @@ public class Dec2HexTest {
     @Test
     public void test20() {
 	Arg1 = 20
-        assertEquals("Testing Dec2Hex with a value of 20 answer should be 14", 14, dec2Hex(Arg1));
+        assertEquals("Testing Dec2Hex with a value of 20 answer should be 14", "14", dec2Hex(Arg1));
     }
 }
