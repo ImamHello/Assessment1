@@ -30,7 +30,7 @@ public class Dec2HexTest {
         assertEquals("Calling the decimal converter with no input", "Ran into a problem", dec2Hex.DecimalConvert());
     }
     @Test
-    public void Noinput() {
+    public void Nonintinput() {
         assertEquals("Calling the decimal converter with another non int input", "isstring", dec2Hex.DecimalConvert(2.5));
     }
 }
