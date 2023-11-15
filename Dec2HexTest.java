@@ -16,6 +16,6 @@ public class Dec2HexTest {
     @Test
     public void test20() {
 	int Arg1 = 20;
-        assertEquals("Testing Dec2Hex with a value of 20 answer should be 14", "14", dec2Hex.DecimalConvert(Arg1);
+        assertEquals("Testing Dec2Hex with a value of 20 answer should be 14", "14", dec2Hex.DecimalConvert(Arg1));
     }
 }
