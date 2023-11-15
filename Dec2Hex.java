@@ -1,14 +1,14 @@
 public class Dec2Hex {
 
     public String DecimalConvert() {
-        System.out.println("No Input entered Please enter a number");
+        System.out.println("Ran into a problem");
         return ("Ran into a problem");
     }
 
     static String DecimalConvert(Object input) {
         try {
-            if (input instanceof String) {
-                System.out.println("You have entered a string Enter a number next time");
+            if (input instanceof String || input instanceof Double || input instanceof Float ) {
+                System.out.println("You have entered a string or floating number Enter a number next time");
                 return ("isstring");
 
             } else {
