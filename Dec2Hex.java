@@ -1,7 +1,7 @@
 public class Dec2Hex {
 
 
-        public DecimalConvert() { 
+        public String DecimalConvert() { 
         return("Hello, World!"); 
         } 
         static String DecimalConvert(Object input) {
