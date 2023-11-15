@@ -25,8 +25,6 @@ public class Dec2Hex {
         return (hexadecimal);
     }
 
-    public static int Arg1;
-
     public static void main(String args[]) {
         DecimalConvert(20);
 
