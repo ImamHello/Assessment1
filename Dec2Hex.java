@@ -2,8 +2,8 @@ public class Dec2Hex {
 
 
         public String DecimalConvert() { 
-        System.out.println("Ran into a problem");
-        return("Ran into a problem"); 
+        System.out.println("No Input Required");
+        return("Ran into a proble"); 
         } 
         static String DecimalConvert(Object input) {
         try{
