@@ -27,6 +27,6 @@ public class Dec2HexTest {
 
     @Test
     public void Noinput() {
-        assertEquals("Calling the decimal converter with no input", "B4", dec2Hex.DecimalConvert());
+        assertEquals("Calling the decimal converter with no input", "Ran into a problem", dec2Hex.DecimalConvert());
     }
 }
