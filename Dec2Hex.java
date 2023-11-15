@@ -25,7 +25,7 @@ public class Dec2Hex {
         return (hexadecimal);
         }
         catch(Exception e){
-            System.out.println("Ran into a problem");
+            return("Ran into a problem");
         }
     }
 
