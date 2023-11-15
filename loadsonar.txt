@@ -1,0 +1,1 @@
+docker run -d --rm --name sonarqube-container -p 9000:9000 sonarqube 
