@@ -1,6 +1,11 @@
 public class Dec2Hex {
-    try{
+
+
+        public void DecimalConvert() { 
+        System.out.println("Hello, World!"); 
+        } 
         static String DecimalConvert(Object input) {
+        try{
 
             String strconverted = input.toString();
             int intconverted = Integer.parseInt(strconverted);
